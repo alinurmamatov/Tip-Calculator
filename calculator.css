@@ -1,0 +1,55 @@
+body {
+    background-color: thistle;
+    background-image: url(https://wallpaperaccess.com/full/7134013.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgba(253, 245, 229, 0.733);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: rgba(61, 42, 112, 0.5);
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(70, 73, 107, 0.80);
+}
+
+#result {
+    font-size: 30px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border-style: hidden;
+    color: rgb(27, 30, 77);
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+#tip,
+#result,
+#each {
+    visibility: hidden;
+}
